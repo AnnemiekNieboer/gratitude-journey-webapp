@@ -1,17 +1,27 @@
 import React from 'react';
 import "./Homepage.css";
-import {NavLink} from "react-router-dom";
+import {useNavigate} from "react-router-dom";
+import Button from "../../components/button/Button";
+import Logo from "../../components/logo/Logo";
 
 const Homepage = () => {
+    const navigate = useNavigate();
+
     return (
-        <div>
-            <header>
-                <nav>
-                    <NavLink to="/">Home</NavLink>
-                    <NavLink to="/login">Login</NavLink>
-                    <NavLink to="/my-journey">My Journey</NavLink>
-                </nav>
-            </header>
+        <div className="outer-container__reusable">
+            <div className="inner-container__reusable">
+                {/*<header>*/}
+                {/*    <nav>*/}
+                {/*        <NavLink to="/">Home</NavLink>*/}
+                {/*        <NavLink to="/login">Login</NavLink>*/}
+                {/*        <NavLink to="/my-journey">My Journey</NavLink>*/}
+                {/*    </nav>*/}
+                {/*</header>*/}
+                <Logo logoClassName="logo--big"/>
+                <div className="homepage__button">
+                    <Button text="Start your Journey" onClick={() => {navigate("/login")}} buttonClassName="button--light"/>
+                </div>
+            </div>
         </div>
     );
 };
