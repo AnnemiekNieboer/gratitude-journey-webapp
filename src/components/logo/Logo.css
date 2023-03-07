@@ -1,9 +1,12 @@
 .logo {
     color: var(--main-light-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .logo--big {
-    margin-top: 10em;
+    height: 50vh;
 }
 
 .logo__text--first-line {

@@ -3,6 +3,7 @@ import "./Homepage.css";
 import {useNavigate} from "react-router-dom";
 import Button from "../../components/button/Button";
 import Logo from "../../components/logo/Logo";
+import Mountains from "../../components/mountains/Mountains";
 
 const Homepage = () => {
     const navigate = useNavigate();
@@ -21,7 +22,9 @@ const Homepage = () => {
                 <div className="homepage__button">
                     <Button text="Start your Journey" onClick={() => {navigate("/login")}} buttonClassName="button--light"/>
                 </div>
+                <Mountains/>
             </div>
+
         </div>
     );
 };

@@ -3,8 +3,8 @@ import "./Login.css";
 
 function Login() {
     return (
-        <div></div>
+        <div className="inner-container__reusable"></div>
     );
 }
 
-export default Login;
+export default Login

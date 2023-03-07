@@ -1,3 +1,6 @@
 .homepage__button {
-    margin: 15em;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
 }
