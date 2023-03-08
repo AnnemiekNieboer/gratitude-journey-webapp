@@ -1,5 +1,5 @@
 # Gratitude Journey - React/TypeScript Web App
-_--- This project is still under development ---_
+_--- This project is still under development. Want a look at the project? You can find the Figma designs [here](https://www.figma.com/file/4V67KL6DbRxVAlX2luLehm/Mobile-Design?node-id=3%3A5&t=PNUwAicSCsyklQyL-1) ---_
 
 ## Index
 
