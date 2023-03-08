@@ -1,8 +1,40 @@
-# Getting Started with Create React App
+# Gratitude Journey - React/TypeScript Web App
+_--- This project is still under development. Want a look at the project? You can find the Figma designs [here](https://www.figma.com/file/4V67KL6DbRxVAlX2luLehm/Mobile-Design?node-id=3%3A5&t=PNUwAicSCsyklQyL-1) ---_
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Index
 
-## Available Scripts
+1.0 Introduction  
+1.1 What does the project do?  
+1.2 What functions do the project have? 
+
+2.0 Installation and requirements  
+2.1 Available Scripts  
+
+3.0 Need some help?  
+
+4.0 Who maintains and contributes to the project?
+
+## 1.0 Introduction
+
+**1.1 What does the project do?**
+
+We are often focused on our end goal, unaware that we've already come a long way to be able to set this goal at all.
+
+With Gratitude Journey you can look back on your life's journey. At times when you encounter difficulties on the journey to your goal and you can use a positivity boost, or as a reflection on your journey to see how you have grown as a person.
+
+**1.2 What functions do the project have?**
+
+- Save your daily gratitude
+- Looking back on previous gratitudes
+- With every added gratitude, your landscape grows visually
+- Each journey consists of 30 days, with 30 gratitudes and 30 visual items in your landscape
+
+
+## 2.0 Installation and Requirements
+
+_Under construction_
+
+## 2.1 Available Scripts
 
 In the project directory, you can run:
 
@@ -39,8 +71,10 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## 3.0 Need some help?
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+If you have any issues with installing, or you have questions about the project, let me know! I am happy to help you out. You can find my contact details at my [GitHub profile](https://github.com/AnnemiekNieboer/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 4.0 Who maintains and contributes to the project?
+
+Me! Annemiek Nieboer. See the most recent updates at the [GitHub repository](https://github.com/AnnemiekNieboer/frontend-react-eindopdracht-color-palette/tree/feature/assignment) of this project. This project is still under construction at the moment, so do not expect a fully functioning project at the moment ;-)

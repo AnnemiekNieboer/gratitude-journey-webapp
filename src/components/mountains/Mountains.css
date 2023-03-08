@@ -1,0 +1,41 @@
+.mountains--container {
+    position: absolute ;
+    width: 100%;
+    height: 100%;
+}
+
+.mountain {
+    position: absolute;
+    width: 70em;
+    height: 70em;
+    clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+    border-radius: 0.75em;
+    transform: rotate(135deg);
+    z-index: 0;
+}
+
+.mountain-1 {
+    width: 40em;
+    height: 40em;
+    background-color: var(--mountain-1);
+    bottom: -21em;
+    left: -18em;
+}
+
+.mountain-2 {
+    background-color: var(--mountain-2);
+    bottom: -60em;
+    left: -14em;
+}
+
+.mountain-3 {
+    background-color: var(--mountain-3);
+    bottom: -59em;
+    left: 1em;
+}
+
+.mountain-4 {
+    background-color: var(--mountain-4);
+    bottom: -65em;
+    left: -35.5em;
+}

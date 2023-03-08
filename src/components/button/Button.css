@@ -1,0 +1,27 @@
+.button {
+    width: 15rem;
+    height: 3rem;
+    align-self: center;
+    border-radius: 15px;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 300;
+    box-shadow: 0 5px 8px var(--main-focus-color);
+    z-index: 1;
+    transition: 0.3s;
+}
+
+.button:hover {
+    cursor: pointer;
+    box-shadow: 0 5px 13px var(--main-focus-color);
+}
+
+.button--light {
+    background-color: var(--main-light-color);
+    color: var(--main-focus-color);
+}
+
+.button--dark {
+    background-color: var(--main-focus-color);
+    color: var(--main-light-color);
+}

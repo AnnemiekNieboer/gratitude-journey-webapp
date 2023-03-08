@@ -1,0 +1,28 @@
+.logo {
+    color: var(--main-light-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo--big {
+    height: 50vh;
+}
+
+.logo__text--first-line {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    letter-spacing: .35rem;
+    line-height: 3.3rem;
+}
+
+.logo__text--first-line::first-letter {
+    font-size: 4rem;
+}
+
+.logo__text--second-line {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    letter-spacing: .2rem;
+}

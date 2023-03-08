@@ -1,0 +1,6 @@
+.homepage__button {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+}
