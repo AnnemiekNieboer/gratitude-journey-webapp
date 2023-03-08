@@ -71,7 +71,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 22px 22px;
+  padding: 1.4rem 1.4rem;
   width: 100vw;
   height: 100vh;
   overflow : hidden;
