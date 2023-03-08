@@ -1,16 +1,13 @@
 .mountains--container {
-    position: absolute;
-    border: 1px solid green;
-    height: 100%;
+    position: absolute ;
     width: 100%;
-    /*overflow: hidden;*/
-    overflow-y: hidden;
-    /*width: 100%;*/
-    /*height: 30vh;*/
- }
+    height: 100%;
+}
 
 .mountain {
-    position: relative;
+    position: absolute;
+    width: 70em;
+    height: 70em;
     clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
     border-radius: 0.75em;
     transform: rotate(135deg);
@@ -20,30 +17,25 @@
 .mountain-1 {
     width: 40em;
     height: 40em;
-    background-color: #80D7CD;
-    left: -16em;
-    top: 34em;
+    background-color: var(--mountain-1);
+    bottom: -21em;
+    left: -18em;
 }
 
 .mountain-2 {
-    background-color: #5CCEC7;
-    width: 70em;
-    height: 70em;
-    top: 1.5em;
-    left: -12em;
+    background-color: var(--mountain-2);
+    bottom: -60em;
+    left: -14em;
 }
 
 .mountain-3 {
-    background-color: #2B7687;
-    width: 70em;
-    height: 70em;
-    top: -67em;
+    background-color: var(--mountain-3);
+    bottom: -59em;
+    left: 1em;
 }
 
 .mountain-4 {
-    background-color: var(--main-focus-color);
-    width: 70em;
-    height: 70em;
-    top: -127em;
-    left: -30em;
+    background-color: var(--mountain-4);
+    bottom: -65em;
+    left: -35.5em;
 }
