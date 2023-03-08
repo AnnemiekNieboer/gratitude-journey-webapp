@@ -8,6 +8,12 @@
     font-weight: 300;
     box-shadow: 0 5px 8px var(--main-focus-color);
     z-index: 1;
+    transition: 0.3s;
+}
+
+.button:hover {
+    cursor: pointer;
+    box-shadow: 0 5px 13px var(--main-focus-color);
 }
 
 .button--light {
