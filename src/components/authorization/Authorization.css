@@ -1,0 +1,8 @@
+.login__input-field {
+    width: 22rem;
+    height: 3rem;
+    margin: 10px;
+
+    border: 1px solid var(--main-focus-color);
+    border-radius: 15px;
+}

@@ -1,0 +1,13 @@
+.modal__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25em;
+    height: 39em;
+    background: var(--main-light-color);
+    align-self: center;
+    padding: 2.4em 1.35em 1.8em 1.35em;
+    margin: 6em 0;
+    border-radius: 15px;
+    z-index: 1;
+}
