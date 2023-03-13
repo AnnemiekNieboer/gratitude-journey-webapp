@@ -1,6 +1,6 @@
 /* ------------------------------- 1. Global Styles -------------------------------- */
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Playfair+Display:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Playfair+Display:wght@700;800&display=swap');
 
 /* --------------- 1.1 CSS reset ------------------- */
 html {
@@ -24,7 +24,6 @@ html {
   --mountain-2: #5CCEC7;
   --mountain-3: #2B7687;
   --mountain-4: #084D5C;;
-
 }
 
 /* ------------------------------- 2. Typography ----------------------------------- */
@@ -45,12 +44,27 @@ html {
   }
 }
 
-h1, h2, h3, h4 {
-  font-family: 'Playfair Display', serif;
-}
-
 body {
   font-family: 'Lato', sans-serif;
+  color: var(--main-focus-color);
+}
+
+h1, h2 {
+  text-align: left;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  letter-spacing: .15rem;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+
+a {
   color: var(--main-focus-color);
 }
 
@@ -70,7 +84,8 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: space-between;
   padding: 1.4rem 1.4rem;
   width: 100vw;
   height: 100vh;

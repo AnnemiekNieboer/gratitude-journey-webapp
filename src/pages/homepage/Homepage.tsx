@@ -20,7 +20,7 @@ const Homepage = () => {
                 {/*</header>*/}
                 <Logo logoClassName="logo--big"/>
                 <div className="homepage__button">
-                    <Button text="Start your Journey" onClick={() => {navigate("/login")}} buttonClassName="button--light"/>
+                    <Button type="button" text="Start your Journey" onClick={() => {navigate("/login")}} buttonClassName="button--light"/>
                 </div>
                 <Mountains/>
             </div>

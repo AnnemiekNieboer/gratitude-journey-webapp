@@ -1,0 +1,23 @@
+.login__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login__input-field {
+    width: 21rem;
+    height: 3rem;
+    margin: 0.6em;
+    padding-left: 1em;
+    border: 1px solid var(--main-focus-color);
+    border-radius: 15px;
+}
+
+.form__label, .form__input--alert {
+    align-self: flex-start;
+    padding-left: 1.1em;
+}
+
+.form__input--alert {
+    font-weight: 600;
+}
+

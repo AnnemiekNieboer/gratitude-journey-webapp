@@ -1,0 +1,17 @@
+.modal__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 26em;
+    height: 40em;
+    background: var(--main-light-color);
+    align-self: center;
+    padding: 2.4em 2em 1.8em 2em;
+    margin: 6em 0;
+    border-radius: 15px;
+    z-index: 1;
+}
+.modal__header {
+    align-self: flex-start;
+}

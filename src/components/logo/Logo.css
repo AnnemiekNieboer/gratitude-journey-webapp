@@ -5,24 +5,41 @@
     justify-content: center;
 }
 
-.logo--big {
-    height: 50vh;
-}
-
 .logo__text--first-line {
     font-family: 'Playfair Display', serif;
     font-size: 3rem;
-    letter-spacing: .35rem;
-    line-height: 3.3rem;
-}
-
-.logo__text--first-line::first-letter {
-    font-size: 4rem;
 }
 
 .logo__text--second-line {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    font-size: 1.5rem;
     letter-spacing: .2rem;
+}
+
+.logo--big {
+    height: 50vh;
+}
+
+.logo--big > .logo__text--first-line {
+    letter-spacing: .35rem;
+    line-height: 3.3rem;
+}
+
+.logo--big > .logo__text--second-line {
+    font-size: 1.5rem;
+    letter-spacing: .35rem;
+}
+
+.logo--big > .logo__text--first-line::first-letter {
+    font-size: 4rem;
+}
+
+.logo--small > .logo__text--first-line {
+    font-size: 1.3rem;
+    letter-spacing: 0.2rem;
+    margin-top: 0.4em;
+}
+
+.logo--small > .logo__text--second-line {
+    font-size: 1rem;
 }
