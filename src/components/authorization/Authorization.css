@@ -1,8 +1,18 @@
-.login__input-field {
-    width: 22rem;
-    height: 3rem;
-    margin: 10px;
+.login__form {
+    display: flex;
+    flex-direction: column;
+}
 
+.login__input-field {
+    width: 21rem;
+    height: 3rem;
+    margin: 0.6em;
     border: 1px solid var(--main-focus-color);
     border-radius: 15px;
 }
+
+.form__label {
+    align-self: flex-start;
+    padding-left: 1.1em;
+}
+
