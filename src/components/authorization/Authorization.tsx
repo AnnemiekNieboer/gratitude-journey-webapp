@@ -1,11 +1,11 @@
 import React, {useState} from 'react';
 import "./Authorization.css";
-import {useForm} from "react-hook-form";
+import {useForm, FieldError} from "react-hook-form";
 import Button from "../button/Button";
 import {Link} from "react-router-dom";
 
 function Authorization() {
-    const {register, handleSubmit} = useForm();
+    const {register, handleSubmit, formState: {errors}} = useForm({mode: "onChange"});
     const [error, toggleError] = useState(false);
     const [loading, toggleLoading] = useState(false);
 
@@ -24,23 +24,34 @@ function Authorization() {
 
     return (
         <>
-            <form onSubmit={handleSubmit(makeLoginRequest)}>
-                <label htmlFor="e-mail">
-                    <input
-                        className="login__input-field"
-                        type="email"
-                        id="e-mail"
-                        {...register("e-mail")}
-                    />
+            <form className="login__form" onSubmit={handleSubmit(makeLoginRequest)}>
+                <label htmlFor="email" className="form__label">
+                    E-mail:
                 </label>
-                <label htmlFor="password">
-                    <input
-                        className="login__input-field"
-                        type="password"
-                        id="e-mail"
-                        {...register("password")}
-                    />
+                <input
+                    className="login__input-field"
+                    type="email"
+                    id="email"
+                    {...register("e-mail", {
+                        required: "E-mail cannot be empty",
+                        pattern: {
+                            value: /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/,
+                            message: "Email address is not valid",
+                        }
+                    })}
+                />
+                {/*{errors?.email && <p>{errors.email.message}: FieldError | undefined</p>}*/}
+                <label htmlFor="password" className="form__label">
+                    Password:
                 </label>
+                <input
+                    className="login__input-field"
+                    type="password"
+                    id="password"
+                    {...register("password", {
+                        required: "Password cannot be empty"
+                    })}
+                />
                 <Button type="submit" text="Login" buttonClassName="button--dark"/>
                 <div className="form--error">
                     {
