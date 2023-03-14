@@ -20,6 +20,7 @@ html {
   --main-light-color: #F5F4F5;
   --main-gradient-color-light: 152,223,207,1;
   --main-gradient-color-dark: 0,69,108,1;
+  --main-shadow-color-dark: hsl(0, 0%, 0%, 25%);
   --mountain-1: #80D7CD;
   --mountain-2: #5CCEC7;
   --mountain-3: #2B7687;
