@@ -25,8 +25,8 @@ const Navigation = () => {
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink className="navigation__link" to="/add-gratitude">
-                            <img className="navigation__icon" src={addGratitudeIcon} alt="Add-gratitude-icon"></img>
+                        <NavLink className="navigation__link navigation__link--big" to="/add-gratitude">
+                            <img className="navigation__icon navigation__icon--big" src={addGratitudeIcon} alt="Add-gratitude-icon"></img>
                             Add gratitude
                         </NavLink>
                     </li>
