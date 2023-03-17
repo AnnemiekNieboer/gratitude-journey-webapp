@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Navigation.css";
-import {NavLink} from "react-router-dom";
+import NavigationLink from "./NavigationLink";
 import myJourneyIcon from "../../assets/icons/my-journey.svg";
 import boostIcon from "../../assets/icons/boost.svg";
 import addGratitudeIcon from "../../assets/icons/add-gratitude.svg";
@@ -13,34 +13,39 @@ const Navigation = () => {
             <div className="navigation__inner-container">
                 <ul className="navigation__list">
                     <li>
-                        <NavLink className={({ isActive }) => isActive ? "navigation__link--active" : "navigation__link"} to="/my-journey">
-                            <img className="navigation__icon" src={myJourneyIcon} alt="My-Journey-icon"></img>
-                            My Journey
-                        </NavLink>
+                        <NavigationLink
+                            linkTo="/my-journey"
+                            icon={myJourneyIcon}
+                            iconAltText="My-Journey-icon"
+                            linkText="My Journey"/>
                     </li>
                     <li>
-                        <NavLink className={({ isActive }) => isActive ? "navigation__link--active" : "navigation__link"} to="/boost">
-                            <img className="navigation__icon" src={boostIcon} alt="Boost-icon"></img>
-                            Boost
-                        </NavLink>
+                        <NavigationLink
+                            linkTo="/boost"
+                            icon={boostIcon}
+                            iconAltText="Boost-icon"
+                            linkText="Boost"/>
                     </li>
                     <li>
-                        <NavLink className={({ isActive }) => isActive ? "navigation__link--active navigation__link--big" : "navigation__link navigation__link--big"} to="/add-gratitude">
-                            <img className="navigation__icon navigation__icon--big" src={addGratitudeIcon} alt="Add-gratitude-icon"></img>
-                            Add gratitude
-                        </NavLink>
+                        <NavigationLink
+                            centerLinkClassName="navigation__link--big"
+                            centerIconClassName="navigation__icon--big" linkTo="/add-gratitude"
+                            icon={addGratitudeIcon} iconAltText="Add-gratitude-icon"
+                            linkText="Add gratitude"/>
                     </li>
                     <li>
-                        <NavLink className={({ isActive }) => isActive ? "navigation__link--active" : "navigation__link"} to="/travel-log">
-                            <img className="navigation__icon" src={travelLogIcon} alt="Travel-log-icon"></img>
-                            Travel log
-                        </NavLink>
+                        <NavigationLink
+                            linkTo="/travel-log"
+                            icon={travelLogIcon}
+                            iconAltText="Travel-log-icon"
+                            linkText="Travel log"/>
                     </li>
                     <li>
-                        <NavLink className={({ isActive }) => isActive ? "navigation__link--active" : "navigation__link"} to="/my-account">
-                            <img className="navigation__icon" src={accountIcon} alt="My-Journey-icon"></img>
-                            Account
-                        </NavLink>
+                        <NavigationLink
+                            linkTo="/my-account"
+                            icon={accountIcon}
+                            iconAltText="My-Account-icon"
+                            linkText="Account"/>
                     </li>
                 </ul>
             </div>
