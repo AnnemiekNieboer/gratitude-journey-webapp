@@ -4,11 +4,13 @@
 
 .my-journey__art-container--inner {
     position: absolute;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     width: 100%;
-    height: 70vh;
-    top: 6em;
+    height: 75vh;
+    top: 4em;
+    overflow: hidden;
 }
+
 .my-journey__art--items {
     position: absolute;
 }
@@ -29,7 +31,7 @@
     width: 2.5em;
     height: 2.5em;
     right: 4em;
-    top: 1em;
+    top: 3.2em;
     background-color: var(--css-art-lighter);
     border-radius: 50%;
     box-shadow: 0 0 2em 1.5em var(--css-art-lighter);
