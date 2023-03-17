@@ -13,31 +13,31 @@ const Navigation = () => {
             <div className="navigation__inner-container">
                 <ul className="navigation__list">
                     <li>
-                        <NavLink className="navigation__link" to="/my-journey">
+                        <NavLink className={({ isActive }) => isActive ? "navigation__link--active" : "navigation__link"} to="/my-journey">
                             <img className="navigation__icon" src={myJourneyIcon} alt="My-Journey-icon"></img>
                             My Journey
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink className="navigation__link" to="/boost">
+                        <NavLink className={({ isActive }) => isActive ? "navigation__link--active" : "navigation__link"} to="/boost">
                             <img className="navigation__icon" src={boostIcon} alt="Boost-icon"></img>
                             Boost
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink className="navigation__link navigation__link--big" to="/add-gratitude">
+                        <NavLink className={({ isActive }) => isActive ? "navigation__link--active navigation__link--big" : "navigation__link navigation__link--big"} to="/add-gratitude">
                             <img className="navigation__icon navigation__icon--big" src={addGratitudeIcon} alt="Add-gratitude-icon"></img>
                             Add gratitude
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink className="navigation__link" to="/travel-log">
+                        <NavLink className={({ isActive }) => isActive ? "navigation__link--active" : "navigation__link"} to="/travel-log">
                             <img className="navigation__icon" src={travelLogIcon} alt="Travel-log-icon"></img>
                             Travel log
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink className="navigation__link" to="/my-account">
+                        <NavLink className={({ isActive }) => isActive ? "navigation__link--active" : "navigation__link"} to="/my-account">
                             <img className="navigation__icon" src={accountIcon} alt="My-Journey-icon"></img>
                             Account
                         </NavLink>
