@@ -1,0 +1,85 @@
+.my-journey__art-container--outer {
+    position: absolute;
+}
+
+.my-journey__art-container--inner {
+    position: absolute;
+    border: 1px solid red;
+    width: 100%;
+    height: 70vh;
+    top: 6em;
+}
+.my-journey__art--items {
+    position: absolute;
+}
+
+/*Mountain 1*/
+.my-journey__art--item1 {
+    width: 15em;
+    height: 15em;
+    top: 13em;
+    background-color: var(--css-art-lighter);
+    clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+    border-radius: 0.75em;
+    transform: rotate(135deg);
+}
+
+/*sun*/
+.my-journey__art--item2 {
+    width: 2.5em;
+    height: 2.5em;
+    right: 4em;
+    top: 1em;
+    background-color: var(--css-art-lighter);
+    border-radius: 50%;
+    box-shadow: 0 0 2em 1.5em var(--css-art-lighter);
+}
+
+/*Mountain 2*/
+.my-journey__art--item3 {
+    width: 15em;
+    height: 15em;
+    top: 15em;
+    left: 7em;
+    background-color: var(--css-art-light);
+    clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+    border-radius: 0.75em;
+    transform: rotate(135deg);
+}
+
+/*Mountain 3*/
+.my-journey__art--item4 {
+    width: 18em;
+    height: 18em;
+    top: 18em;
+    left: 12em;
+    background-color: var(--css-art-dark);
+    clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+    border-radius: 0.75em;
+    transform: rotate(135deg);
+    z-index: 1;
+}
+
+/*river*/
+.my-journey__art--item5 {
+    width: 10em;
+    height: 13.3em;
+    left: 15em;
+    top: 26em;
+    background-color: var(--css-art-darker);
+    clip-path: polygon(66% 0, 75% 0, 75% 100%, 0% 100%);
+    z-index: 0;
+}
+
+/*Mountain 4*/
+.my-journey__art--item6 {
+    width: 19em;
+    height: 19em;
+    top: 19em;
+    left: -4.1em;
+    background-color: var(--css-art-darker);
+    clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+    border-radius: 0.75em;
+    transform: rotate(135deg);
+    z-index: 2;
+}
