@@ -21,10 +21,10 @@ html {
   --main-gradient-color-light: 152,223,207,1;
   --main-gradient-color-dark: 0,69,108,1;
   --main-shadow-color-dark: hsl(0, 0%, 0%, 25%);
-  --mountain-1: #80D7CD;
-  --mountain-2: #5CCEC7;
-  --mountain-3: #2B7687;
-  --mountain-4: #084D5C;;
+  --css-art-lighter: #80D7CD;
+  --css-art-light: #5CCEC7;
+  --css-art-dark: #2B7687;
+  --css-art-darker: #084D5C;;
 }
 
 /* ------------------------------- 2. Typography ----------------------------------- */
@@ -78,7 +78,7 @@ a {
   flex-wrap: wrap;
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(0deg, rgba(var(--main-gradient-color-light)) 0%, rgba(var(--main-gradient-color-dark)) 86%);
+  background: linear-gradient(0deg, rgba(var(--main-gradient-color-light)) 0%, rgba(var(--main-gradient-color-dark)) 95%);
 }
 
 .inner-container__reusable {

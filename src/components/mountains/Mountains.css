@@ -17,25 +17,25 @@
 .mountain-1 {
     width: 40em;
     height: 40em;
-    background-color: var(--mountain-1);
+    background-color: var(--css-art-lighter);
     bottom: -21em;
     left: -18em;
 }
 
 .mountain-2 {
-    background-color: var(--mountain-2);
+    background-color: var(--css-art-light);
     bottom: -60em;
     left: -14em;
 }
 
 .mountain-3 {
-    background-color: var(--mountain-3);
+    background-color: var(--css-art-dark);
     bottom: -59em;
     left: 1em;
 }
 
 .mountain-4 {
-    background-color: var(--mountain-4);
+    background-color: var(--css-art-darker);
     bottom: -65em;
     left: -35.5em;
 }
