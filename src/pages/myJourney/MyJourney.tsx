@@ -1,15 +1,11 @@
 import React from 'react';
 import "./MyJourney.css";
-import Logo from "../../components/logo/Logo";
-import Navigation from "../../components/navigation/Navigation";
+import Header from "../../components/header/Header";
 
 const MyJourney = () => {
     return (
         <div className="outer-container__reusable">
-            <header className="inner-container__reusable">
-                <Logo logoClassName="logo--small"/>
-                <Navigation/>
-            </header>
+            <Header/>
         </div>
     );
 };
