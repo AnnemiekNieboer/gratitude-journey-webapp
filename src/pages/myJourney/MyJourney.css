@@ -32,7 +32,7 @@
     width: 2.5em;
     height: 2.5em;
     right: 4em;
-    top: 3.2em;
+    top: 3.6em;
     background-color: var(--css-art-lighter);
     border-radius: 50%;
     box-shadow: 0 0 2em 1.5em var(--css-art-lighter);
@@ -65,13 +65,49 @@
 
 /*river*/
 .my-journey__art--item5 {
-    width: 10em;
+    width: 8em;
     height: 13.3em;
-    left: 15em;
-    top: 26em;
+    left: 18em;
+    top: 24em;
     background-color: var(--css-art-darker);
-    clip-path: polygon(66% 0, 75% 0, 75% 100%, 0% 100%);
+    border-radius: 15px;
+    clip-path: polygon(24% 0, 76% 0, 100% 100%, 0 100%);
     z-index: 0;
+}
+
+.item5__wave--container {
+    position: relative;
+    width: 3em;
+    height: 0.7em;
+    top: 4.3em;
+    left: 3.4em;
+    overflow: hidden;
+    transform: scale(0.7);
+}
+
+.item5__wave {
+    position: absolute;
+    width: 1.5em;
+    height: 1.5em;
+    background-color: var(--css-art-darker);
+    border: 0.2em solid var(--css-art-lighter);
+    border-radius: 50%;
+}
+
+.item5__wave--2 {
+    left: 1.3em;
+}
+
+.wave__container--2 {
+    top: 6.3em;
+    left: 1.2em;
+    transform: scale(0.8);
+}
+
+.wave__container--3 {
+    top: 9em;
+    left: 2.7em;
+    transform: scale(1);
 }
 
 /*Mountain 4*/
@@ -85,4 +121,57 @@
     border-radius: 0.75em;
     transform: rotate(135deg);
     z-index: 2;
+}
+
+/*Trees*/
+.my-journey__art--item7 {
+    top: 15.5em;
+    left: 10em;
+}
+
+.item7__tree {
+    position: relative;
+    width: 0.5em;
+    height: 0.8em;
+    background-color: var(--css-art-dark);
+    box-shadow: 0 0.4em 0.8em 0.4em var(--main-shadow-color-dark);
+}
+
+.item7__tree--2 {
+    top: 0.18em;
+    left: -0.85em;
+    background-color: var(--css-art-darker);
+    transform: scale(0.8);
+}
+
+.item7__tree--3 {
+    top: 0.2em;
+    left: -2em;
+    transform: scale(0.9);
+}
+
+.item7__tree--greenery {
+    position: absolute;
+    width: 1.5em;
+    height: 1.5em;
+    top: -0.5em;
+    left: -0.5em;
+    transform: rotate(135deg);
+    background-color: inherit;
+    border-radius: 0.3em;
+    clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+}
+
+.item7__tree--greenery--2 {
+    top: -1em;
+    left: -0.43em;
+    width: 1.3em;
+    height: 1.3em;
+}
+
+.item7__tree--greenery--3 {
+    top: -1.4em;
+    left: -0.33em;
+    width: 1em;
+    height: 1em;
 }
