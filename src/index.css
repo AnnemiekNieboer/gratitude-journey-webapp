@@ -97,7 +97,7 @@ a {
 
 @media screen and (min-width: 80em) {
   .inner-container__reusable {
-    width: 50em;
+    width: 40em;
   }
 }
 /* --------------- 4.2 Fonts ------------------- */
