@@ -47,14 +47,23 @@ const MyJourney = () => {
                         </div>
                     </div>
                     <div className="my-journey__art--items my-journey__art--item8">
-                        <div className="item8__cloud item8__cloud1"/>
-                        <div className="item8__cloud item8__cloud2"/>
+                        <div className="my-journey__art--cloud item8__cloud1"/>
                     </div>
                     <div className="my-journey__art--items my-journey__art--item9">
                         <div className="item9__tent-line"/>
                         <div className="item9__tent-line item9__tent-line--right"/>
                     </div>
-                    <div className="my-journey__art--items my-journey__art--item10"/>
+                    <div className="my-journey__art--items my-journey__art--item10">
+                        <div className="item10__fire"/>
+                    </div>
+                    <div className="my-journey__art--items my-journey__art--item11"/>
+                    <div className="my-journey__art--items my-journey__art--item12">
+                        <div className="my-journey__art--cloud item12__cloud2"/>
+                    </div>
+                    <div className="my-journey__art--items my-journey__art--item13"/>
+                    <div className="my-journey__art--items my-journey__art--item14"/>
+                    <div className="my-journey__art--items my-journey__art--item15"/>
+                    <div className="my-journey__art--items my-journey__art--item16"/>
                 </div>
             </main>
         </div>
