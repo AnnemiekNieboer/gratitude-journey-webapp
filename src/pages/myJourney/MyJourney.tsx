@@ -61,7 +61,13 @@ const MyJourney = () => {
                         <div className="my-journey__art--cloud item12__cloud2"/>
                     </div>
                     <div className="my-journey__art--items my-journey__art--item13"/>
-                    <div className="my-journey__art--items my-journey__art--item14"/>
+                    <div className="my-journey__art--items my-journey__art--item14">
+                        <div className="item14__grass"></div>
+                        <div className="item14__grass item14__grass--2"></div>
+                        <div className="item14__grass item14__grass--3"></div>
+                        <div className="item14__grass item14__grass--4"></div>
+                        <div className="item14__grass item14__grass--5"></div>
+                    </div>
                     <div className="my-journey__art--items my-journey__art--item15"/>
                     <div className="my-journey__art--items my-journey__art--item16"/>
                 </div>

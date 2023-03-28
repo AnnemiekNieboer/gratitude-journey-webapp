@@ -366,6 +366,85 @@
 
 /*Grass*/
 
+.my-journey__art--item14 {
+    top: 26.4em;
+    left: 25.7em;
+    z-index: 1;
+}
+
+.item14__grass {
+    position: relative;
+    width: 0.9em;
+    height: 1em;
+    border-color: var(--css-art-darker);
+    border-width: 0 0.2em 0 0;
+    border-style: solid;
+    border-radius: 3em 3em 0 0;
+    transform: rotate(-12deg);
+}
+
+.item14__grass::before {
+    content: "";
+    position: absolute;
+    bottom: -0.1em;
+    left: -0.67em;
+    width: 1.3em;
+    height: 0.7em;
+    border-color: var(--css-art-darker);
+    border-width: 0 0.2em 0 0;
+    border-style: solid;
+    border-radius: 3em 3em 0 0;
+    transform: rotate(-7deg);
+}
+
+.item14__grass::after {
+    content: "";
+    position: absolute;
+    bottom: -0.1em;
+    left: 0.9em;
+    width: 1.3em;
+    height: 0.5em;
+    border-color: var(--css-art-darker);
+    border-width: 0 0.2em 0 0;
+    border-style: solid;
+    border-radius: 3em 3em 0 0;
+    transform: rotate(15deg) scaleX(-1);
+}
+
+.item14__grass--2 {
+    top: -0.3em;
+    left: 2.2em;
+    transform: scaleX(-1);
+}
+
+.item14__grass--3 {
+    top: -0.5em;
+    left: -0.5em;
+    transform: scale(0.8);
+}
+.item14__grass--4 {
+    top: -1em;
+    left: 5em;
+}
+.item14__grass--5 {
+    top: -1em;
+    left: 3.3em;
+    transform: scale(0.9) ;
+}
+
+/*Streaky clouds*/
+
+.my-journey__art--item15 {
+    top: 21em;
+    right: 1em;
+    width: 13em;
+    height: 0.4em;
+    background-color: var(--css-art-lighter);
+    border-radius: 32% 68% 31% 69% / 60% 50% 50% 40%;
+    filter: blur(0.17em);
+    box-shadow: var(--css-art-lighter) -2.5em -1em 0 -0.1em;
+}
+
 /*Bird 2*/
 
 /*Bird 3*/
@@ -377,3 +456,9 @@
 /*Stars*/
 
 /*Mountain path*/
+
+/*Water plants*/
+
+/*Snow*/
+
+/*Grass 2*/
