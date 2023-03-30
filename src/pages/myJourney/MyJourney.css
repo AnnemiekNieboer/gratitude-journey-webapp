@@ -5,7 +5,6 @@
 
 .my-journey__art-container--inner {
     position: absolute;
-    /*border: 1px solid red;*/
     width: 100%;
     height: 75vh;
     top: 4em;
@@ -21,7 +20,7 @@
     width: 15em;
     height: 15em;
     top: 13em;
-    background-color: var(--css-art-lighter);
+    background: var(--css-art-lighter);
     clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
     border-radius: 0.75em;
     transform: rotate(135deg);
@@ -33,7 +32,7 @@
     height: 2.5em;
     right: 4em;
     top: 3.6em;
-    background-color: var(--css-art-lighter);
+    background: var(--css-art-lighter);
     border-radius: 50%;
     box-shadow: 0 0 2em 1.5em var(--css-art-lighter);
 }
@@ -44,7 +43,7 @@
     height: 15em;
     top: 15em;
     left: 7em;
-    background-color: var(--css-art-light);
+    background: var(--css-art-light);
     clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
     border-radius: 0.75em;
     transform: rotate(135deg);
@@ -56,7 +55,7 @@
     height: 18em;
     top: 18em;
     left: 12em;
-    background-color: var(--css-art-dark);
+    background: var(--css-art-dark);
     clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
     border-radius: 0.75em;
     transform: rotate(135deg);
@@ -69,7 +68,7 @@
     height: 13.3em;
     left: 18em;
     top: 24em;
-    background-color: var(--css-art-darker);
+    background: var(--css-art-darker);
     border-radius: 15px;
     clip-path: polygon(24% 0, 76% 0, 100% 100%, 0 100%);
     z-index: 0;
@@ -89,7 +88,7 @@
     position: absolute;
     width: 1.5em;
     height: 1.5em;
-    background-color: var(--css-art-darker);
+    background: var(--css-art-darker);
     border: 0.2em solid var(--css-art-lighter);
     border-radius: 50%;
 }
@@ -116,7 +115,7 @@
     height: 19em;
     top: 19em;
     left: -4.1em;
-    background-color: var(--css-art-darker);
+    background: var(--css-art-darker);
     clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
     border-radius: 0.75em;
     transform: rotate(135deg);
@@ -133,14 +132,14 @@
     position: relative;
     width: 0.5em;
     height: 0.8em;
-    background-color: var(--css-art-dark);
+    background: var(--css-art-dark);
     box-shadow: 0 0.4em 0.8em 0.4em var(--main-shadow-color-dark);
 }
 
 .item7__tree--2 {
     top: 0.18em;
     left: -0.85em;
-    background-color: var(--css-art-darker);
+    background: var(--css-art-darker);
     transform: scale(0.8);
 }
 
@@ -157,7 +156,7 @@
     top: -0.5em;
     left: -0.5em;
     transform: rotate(135deg);
-    background-color: inherit;
+    background: inherit;
     border-radius: 0.3em;
     clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
 }
@@ -186,7 +185,7 @@
     position: relative;
     width: 2.5em;
     height: 2.2em;
-    background-color: var(--css-art-lighter);
+    background: var(--css-art-lighter);
     border-radius: 50%;
 }
 
@@ -210,7 +209,7 @@
     height: 1.9em;
     left: 13.8em;
     top: 30em;
-    background-color: var(--css-art-lighter);
+    background: var(--css-art-lighter);
     border-radius: 2em 2em 0 0;
 }
 
@@ -221,7 +220,7 @@
     width: 2em;
     height: 1.6em;
     bottom: 0;
-    background-color: var(--css-art-dark);
+    background: var(--css-art-dark);
     clip-path: polygon(50% 0, 50% 0, 65% 100%, 35% 100%);
 }
 
@@ -231,7 +230,7 @@
     left: -0.3em;
     width: 0.15em;
     height: 1.2em;
-    background-color: var(--css-art-dark);
+    background: var(--css-art-dark);
     border-radius: 15px;
     transform: rotate(45deg);
 }
@@ -243,7 +242,7 @@
     height: 0.25em;
     bottom: 0;
     left: -0.3em;
-    background-color: var(--css-art-darker);
+    background: var(--css-art-darker);
     transform: rotate(30deg);
 }
 
@@ -260,7 +259,7 @@
     width: 0.5em;
     height: 1.4em;
     border-radius: 0.75em;
-    background-color: var(--css-art-darker);
+    background: var(--css-art-darker);
 }
 
 .my-journey__art--item10::before {
@@ -269,7 +268,7 @@
     width: 0.4em;
     height: 1.3em;
     border-radius: 0.75em;
-    background-color: var(--css-art-dark);
+    background: var(--css-art-dark);
     left: -0.4em;
     bottom: 0;
     transform: rotate(24deg);
@@ -281,7 +280,7 @@
     width: 0.4em;
     height: 1.3em;
     border-radius: 0.75em;
-    background-color: var(--css-art-dark);
+    background: var(--css-art-dark);
     left: 0.5em;
     bottom: 0;
     transform: rotate(-24deg);
@@ -294,7 +293,7 @@
     height: 3.7em;
     bottom: 1.5em;
     left: -0.38em;
-    background-color: var(--css-art-lighter);
+    background: var(--css-art-lighter);
     --mask:
             radial-gradient(1.03em at 1.40em 50%,#000 99%,#0000 101%) 0 calc(50% - 1em)/51% 2em repeat-y,
             radial-gradient(1.03em at -0.9em 50%,#0000 99%,#000 101%) 0.5em 50%/calc(51% - 0.5em) 2em repeat-y,
@@ -312,7 +311,7 @@
     width: 0.7em;
     height: 0.5em;
     border-radius: 50%;
-    background-color: var(--css-art-darker);
+    background: var(--css-art-darker);
     box-shadow:
             var(--css-art-dark) 0.80em 0 0 -0.02em,
             var(--css-art-darker) 1.5em -0.35em 0 -0.03em,
@@ -337,7 +336,7 @@
 }
 
 /*Bird*/
-.my-journey__art--item13 {
+.my-journey__art--item13, .my-journey__art--item18 {
     position: relative;
     left: 10em;
     top: 3.6em;
@@ -350,7 +349,7 @@
     transform: rotate(10deg);
 }
 
-.my-journey__art--item13::after {
+.my-journey__art--item13::after, .my-journey__art--item18::after {
     content: "";
     position: absolute;
     top: -0.1em;
@@ -364,7 +363,6 @@
 }
 
 /*Grass*/
-
 .my-journey__art--item14 {
     top: 26.4em;
     left: 25.7em;
@@ -432,27 +430,25 @@
 }
 
 /*Streaky clouds*/
-
 .my-journey__art--item15 {
     top: 21em;
     right: 1em;
     width: 13em;
     height: 0.4em;
-    background-color: var(--css-art-lighter);
+    background: var(--css-art-lighter);
     border-radius: 32% 68% 31% 69% / 60% 50% 50% 40%;
     filter: blur(0.17em);
     box-shadow: var(--css-art-lighter) -2.5em -1em 0 -0.1em;
 }
 
 /*Bunny*/
-
 .my-journey__art--item16 {
     position: relative;
     top: 25em;
     left: 27em;
     width: 1.3em;
     height: 1em;
-    background-color: var(--css-art-dark);
+    background: var(--css-art-dark);
 }
 
 .my-journey__art--item16::before {
@@ -462,7 +458,7 @@
     left: -0.2em;
     width: 0.8em;
     height: 0.8em;
-    background-color: var(--css-art-dark);
+    background: var(--css-art-dark);
 }
 
 .my-journey__art--item16::after {
@@ -472,7 +468,7 @@
     height: 0.4em;
     right: -0.2em;
     bottom: 0.2em;
-    background-color: var(--css-art-light);
+    background: var(--css-art-light);
 }
 
 .item16__bunny-ears {
@@ -480,7 +476,7 @@
     width: 0.3em;
     height: 0.6em;
     top: -0.8em;
-    background-color: var(--css-art-dark);
+    background: var(--css-art-dark);
     transform: rotate(15deg);
     box-shadow: var(--css-art-darker) 0.2em 0.12em 0 0;
 }
@@ -493,7 +489,6 @@
 }
 
 /*Second group of trees, css combined with item 7*/
-
 .my-journey__art--item17 {
     top: 24.1em;
     left: 14.4em;
@@ -502,27 +497,73 @@
 }
 
 .item17__tree {
-    background-color: var(--css-art-lighter);
+    background: var(--css-art-lighter);
 }
 
 .item17__tree--2 {
     top: 0.5em;
     left: 1.45em;
-    background-color: var(--css-art-light);
+    background: var(--css-art-light);
     transform: scale(0.9);
 }
 
-/*Bush*/
+/*Bird 2, shares css with item 13*/
+.my-journey__art--item18 {
+    top: 13em;
+    left: 22em;
+    z-index: 1;
+    transform: scaleX(-1) scale(0.8) rotate(18deg);
+}
 
-/*Bird 2*/
+/*Mountain path*/
+.my-journey__art--item19 {
+    top: 14em;
+    left: 0.9em;
+    width: 10.8em;
+    height: 8em;
+    background: var(--css-art-dark);
+    clip-path: polygon(1% 94%, 12% 90%, 25% 83%, 36% 76%, 45% 71%, 52% 65%, 57% 59%, 62% 53%, 68% 48%, 74% 46%, 81% 44%, 88% 51%, 79% 54%, 72% 59%, 64% 66%, 58% 70%, 53% 74%, 48% 78%, 42% 82%, 34% 86%, 26% 89%, 19% 92%, 13% 93%, 6% 94%);
+    z-index: 2;
+    transform: scaleX(-1) rotate(2.5deg);
+}
+
+/*Stars*/
+
+.my-journey__art--item20 {
+    position: absolute;
+    top: 1.3em;
+    right: 9.3em;
+}
+
+.my-journey__art--item20::before, .my-journey__art--item20::after {
+    content:"";
+    position:absolute;
+    background: var(--css-art-lighter);
+    width:0.25em;
+    height:0.40em;
+}
+
+.my-journey__art--item20::before {
+    transform:rotate(-45deg) skewX(22.5deg) skewY(22.5deg);
+    box-shadow:
+            var(--css-art-lighter) 0.5em -2em 0 -0.05em,
+            var(--css-art-lighter) -3.55em 0.5em 0 -0.02em;
+}
+
+.my-journey__art--item20::after {
+    transform:rotate(45deg) skewX(22.5deg) skewY(22.5deg);
+    box-shadow:
+            var(--css-art-lighter) -1.9em 1em 0 -0.05em,
+            var(--css-art-lighter) -2.6em 5em 0 -0.02em;
+}
+
+/*Bush*/
 
 /*Bird 3*/
 
 /*Grass 2*/
 
 /*Fox*/
-
-/*Stars*/
 
 /*Mountain path*/
 
