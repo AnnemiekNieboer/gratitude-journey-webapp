@@ -63,13 +63,40 @@ const MyJourney = () => {
                     <div className="my-journey__art--items my-journey__art--item13"/>
                     <div className="my-journey__art--items my-journey__art--item14">
                         <div className="item14__grass"></div>
-                        <div className="item14__grass item14__grass--2"></div>
-                        <div className="item14__grass item14__grass--3"></div>
-                        <div className="item14__grass item14__grass--4"></div>
-                        <div className="item14__grass item14__grass--5"></div>
+                        <div className="item14__grass item14__grass--2"/>
+                        <div className="item14__grass item14__grass--3"/>
+                        <div className="item14__grass item14__grass--4"/>
+                        <div className="item14__grass item14__grass--5"/>
                     </div>
                     <div className="my-journey__art--items my-journey__art--item15"/>
-                    <div className="my-journey__art--items my-journey__art--item16"/>
+                    <div className="my-journey__art--items my-journey__art--item16">
+                        <div className="item16__bunny-ears"/>
+                    </div>
+                    <div className="my-journey__art--items my-journey__art--item17">
+                        <div className="item17__tree">
+                            <div className="item17__tree--greenery"/>
+                            <div className="item17__tree--greenery item17__tree--greenery--2"/>
+                            <div className="item17__tree--greenery item17__tree--greenery--3"/>
+                        </div>
+                        <div className="item17__tree item17__tree--2">
+                            <div className="item17__tree--greenery"/>
+                            <div className="item17__tree--greenery item17__tree--greenery--2"/>
+                            <div className="item17__tree--greenery item17__tree--greenery--3"/>
+                        </div>
+                    </div>
+                    <div className="my-journey__art--items my-journey__art--item18"/>
+                    <div className="my-journey__art--items my-journey__art--item19"/>
+                    <div className="my-journey__art--items my-journey__art--item20"/>
+                    <div className="my-journey__art--items my-journey__art--item21"/>
+                    <div className="my-journey__art--items my-journey__art--item22"/>
+                    <div className="my-journey__art--items my-journey__art--item23"/>
+                    <div className="my-journey__art--items my-journey__art--item24"/>
+                    <div className="my-journey__art--items my-journey__art--item25"/>
+                    <div className="my-journey__art--items my-journey__art--item26"/>
+                    <div className="my-journey__art--items my-journey__art--item27"/>
+                    <div className="my-journey__art--items my-journey__art--item28"/>
+                    <div className="my-journey__art--items my-journey__art--item29"/>
+                    <div className="my-journey__art--items my-journey__art--item30"/>
                 </div>
             </main>
         </div>

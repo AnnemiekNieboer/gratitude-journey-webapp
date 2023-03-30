@@ -129,7 +129,7 @@
     left: 10em;
 }
 
-.item7__tree {
+.item7__tree, .item17__tree {
     position: relative;
     width: 0.5em;
     height: 0.8em;
@@ -150,7 +150,7 @@
     transform: scale(0.9);
 }
 
-.item7__tree--greenery {
+.item7__tree--greenery, .item17__tree--greenery {
     position: absolute;
     width: 1.5em;
     height: 1.5em;
@@ -162,14 +162,14 @@
     clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
 }
 
-.item7__tree--greenery--2 {
+.item7__tree--greenery--2, .item17__tree--greenery--2 {
     top: -1em;
     left: -0.43em;
     width: 1.3em;
     height: 1.3em;
 }
 
-.item7__tree--greenery--3 {
+.item7__tree--greenery--3, .item17__tree--greenery--3 {
     top: -1.4em;
     left: -0.33em;
     width: 1em;
@@ -196,7 +196,6 @@
             var(--css-art-lighter) 1.5em -0.2em 0 0.1em,
             var(--css-art-lighter) 2.5em 0em 0 -0.4em;
 }
-
 
 @media screen and (min-width: 80em) {
     .my-journey__art--item8 {
@@ -445,13 +444,83 @@
     box-shadow: var(--css-art-lighter) -2.5em -1em 0 -0.1em;
 }
 
+/*Bunny*/
+
+.my-journey__art--item16 {
+    position: relative;
+    top: 25em;
+    left: 27em;
+    width: 1.3em;
+    height: 1em;
+    background-color: var(--css-art-dark);
+}
+
+.my-journey__art--item16::before {
+    content: "";
+    position: absolute;
+    top: -0.25em;
+    left: -0.2em;
+    width: 0.8em;
+    height: 0.8em;
+    background-color: var(--css-art-dark);
+}
+
+.my-journey__art--item16::after {
+    content: "";
+    position: absolute;
+    width: 0.4em;
+    height: 0.4em;
+    right: -0.2em;
+    bottom: 0.2em;
+    background-color: var(--css-art-light);
+}
+
+.item16__bunny-ears {
+    position: absolute;
+    width: 0.3em;
+    height: 0.6em;
+    top: -0.8em;
+    background-color: var(--css-art-dark);
+    transform: rotate(15deg);
+    box-shadow: var(--css-art-darker) 0.2em 0.12em 0 0;
+}
+
+.my-journey__art--item16,
+.my-journey__art--item16::before,
+.my-journey__art--item16::after,
+.item16__bunny-ears {
+    border-radius: 1em;
+}
+
+/*Second group of trees, css combined with item 7*/
+
+.my-journey__art--item17 {
+    top: 24.1em;
+    left: 14.4em;
+    z-index: 2;
+    transform: scale(0.8);
+}
+
+.item17__tree {
+    background-color: var(--css-art-lighter);
+}
+
+.item17__tree--2 {
+    top: 0.5em;
+    left: 1.45em;
+    background-color: var(--css-art-light);
+    transform: scale(0.9);
+}
+
+/*Bush*/
+
 /*Bird 2*/
 
 /*Bird 3*/
 
-/*Bush*/
+/*Grass 2*/
 
-/*Large tree*/
+/*Fox*/
 
 /*Stars*/
 
@@ -461,4 +530,10 @@
 
 /*Snow*/
 
-/*Grass 2*/
+/*Reindeer*/
+
+/*Large tree*/
+
+/*Owl*/
+
+/*Fish*/
