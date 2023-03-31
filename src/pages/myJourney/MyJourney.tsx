@@ -62,7 +62,7 @@ const MyJourney = () => {
                     </div>
                     <div className="my-journey__art--items my-journey__art--item13"/>
                     <div className="my-journey__art--items my-journey__art--item14">
-                        <div className="item14__grass"></div>
+                        <div className="item14__grass"/>
                         <div className="item14__grass item14__grass--2"/>
                         <div className="item14__grass item14__grass--3"/>
                         <div className="item14__grass item14__grass--4"/>
@@ -88,8 +88,18 @@ const MyJourney = () => {
                     <div className="my-journey__art--items my-journey__art--item19"/>
                     <div className="my-journey__art--items my-journey__art--item20"/>
                     <div className="my-journey__art--items my-journey__art--item21"/>
-                    <div className="my-journey__art--items my-journey__art--item22"/>
-                    <div className="my-journey__art--items my-journey__art--item23"/>
+                    <div className="my-journey__art--items my-journey__art--item22">
+                        <div className="item22__waterplant"/>
+                        <div className="item22__waterplant item22__waterplant--2"/>
+                        <div className="item22__waterplant item22__waterplant--3"/>
+                    </div>
+                    <div className="my-journey__art--items my-journey__art--item23">
+                        <div className="item23__grass"/>
+                        <div className="item23__grass item23__grass--2"/>
+                        <div className="item23__grass item23__grass--3"/>
+                        <div className="item23__grass item23__grass--4"/>
+                        <div className="item23__grass item23__grass--5"/>
+                    </div>
                     <div className="my-journey__art--items my-journey__art--item24"/>
                     <div className="my-journey__art--items my-journey__art--item25"/>
                     <div className="my-journey__art--items my-journey__art--item26"/>

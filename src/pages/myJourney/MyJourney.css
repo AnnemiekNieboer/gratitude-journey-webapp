@@ -11,6 +11,12 @@
     overflow: hidden;
 }
 
+@media screen and (min-width: 80em) {
+    .my-journey__art-container--inner {
+        height: 80vh;
+    }
+}
+
 .my-journey__art--items {
     position: absolute;
 }
@@ -367,9 +373,10 @@
     top: 26.4em;
     left: 25.7em;
     z-index: 1;
+    transform: scale(0.9);
 }
 
-.item14__grass {
+.item14__grass, .item23__grass {
     position: relative;
     width: 0.9em;
     height: 1em;
@@ -380,7 +387,7 @@
     transform: rotate(-12deg);
 }
 
-.item14__grass::before {
+.item14__grass::before, .item23__grass::before {
     content: "";
     position: absolute;
     bottom: -0.1em;
@@ -394,7 +401,7 @@
     transform: rotate(-7deg);
 }
 
-.item14__grass::after {
+.item14__grass::after, .item23__grass::after {
     content: "";
     position: absolute;
     bottom: -0.1em;
@@ -408,22 +415,22 @@
     transform: rotate(15deg) scaleX(-1);
 }
 
-.item14__grass--2 {
+.item14__grass--2, .item23__grass--2 {
     top: -0.3em;
     left: 2.2em;
     transform: scaleX(-1);
 }
 
-.item14__grass--3 {
+.item14__grass--3, .item23__grass--3 {
     top: -0.5em;
     left: -0.5em;
     transform: scale(0.8);
 }
-.item14__grass--4 {
+.item14__grass--4, .item23__grass--4 {
     top: -1em;
     left: 5em;
 }
-.item14__grass--5 {
+.item14__grass--5, .item23__grass--5 {
     top: -1em;
     left: 3.3em;
     transform: scale(0.9) ;
@@ -631,10 +638,72 @@
 }
 
 /*Water plants*/
+.my-journey__art--item22 {
+    top: 34.8em;
+    left: 25em;
+}
+
+.item22__waterplant {
+    position: absolute;
+    width: 0.1em;
+    height: 1.4em;
+    background: var(--css-art-lighter);
+    border-radius: 1em;
+    box-shadow:
+            var(--css-art-lighter) -0.8em 0.3em 0 0,
+            var(--css-art-lighter) -0.4em 0.6em 0 0;
+    z-index: 1;
+}
+
+.item22__waterplant::before {
+    content: "";
+    position: absolute;
+    top: -0.5em;
+    left: -0.1em;
+    width: 0.3em;
+    height: 0.6em;
+    background: var(--css-art-dark);
+    border-radius: 1em;
+    box-shadow:
+            var(--css-art-dark) -0.8em 0.3em 0 0,
+            var(--css-art-light) -0.4em 0.6em 0 0;
+}
+
+.item22__waterplant::after {
+    content: "";
+    position: absolute;
+    bottom: -0.2em;
+    left: -0.3em;
+    width: 0.6em;
+    height: 0.4em;
+    border-radius: 1em;
+    background: var(--main-shadow-color-dark);
+    box-shadow:
+            var(--main-shadow-color-dark) 0 0 0.2em 0,
+            var(--main-shadow-color-dark) -0.8em 0.3em 0.2em 0,
+            var(--main-shadow-color-dark) -0.4em 0.6em 0.2em 0;
+}
+
+.item22__waterplant--2 {
+    left: -2em;
+    bottom: 1.9em;
+    transform: scale(0.7) scaleX(-1);
+}
+
+.item22__waterplant--3 {
+    left: -6em;
+    bottom: -0.5em;
+    transform: scale(0.9) scaleX(-1);
+}
+
+/*Grass 2, shares css from item 14*/
+.my-journey__art--item23 {
+    top: 35em;
+    left: 16em;
+    transform: scaleX(-1) scale(1.1);
+}
 
 /*Bush 2*/
-
-/*Grass 2*/
 
 /*Fox*/
 
@@ -647,3 +716,5 @@
 /*Owl*/
 
 /*Fish*/
+
+/*Flag on mountain*/
