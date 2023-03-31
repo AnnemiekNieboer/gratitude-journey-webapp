@@ -177,7 +177,7 @@
 
 /*Cloud 1*/
 .my-journey__art--item8 {
-    top: 10em;
+    top: 11em;
     right: 13em;
 }
 
@@ -516,23 +516,49 @@
 }
 
 /*Mountain path*/
+/*.my-journey__art--item19 {*/
+/*    top: 14em;*/
+/*    left: 0.9em;*/
+/*    width: 10.8em;*/
+/*    height: 8em;*/
+/*    background: var(--css-art-dark);*/
+/*    clip-path: polygon(1% 94%, 12% 90%, 25% 83%, 36% 76%, 45% 71%, 52% 65%, 57% 59%, 62% 53%, 68% 48%, 74% 46%, 81% 44%, 88% 51%, 79% 54%, 72% 59%, 64% 66%, 58% 70%, 53% 74%, 48% 78%, 42% 82%, 34% 86%, 26% 89%, 19% 92%, 13% 93%, 6% 94%);*/
+/*    z-index: 2;*/
+/*    transform: scaleX(-1) rotate(2.5deg);*/
+/*}*/
+
+/*Snow*/
 .my-journey__art--item19 {
-    top: 14em;
-    left: 0.9em;
-    width: 10.8em;
-    height: 8em;
+    width: 4.7em;
+    height: 3em;
+    left: 5.1em;
+    top: 10em;
+    --mask:
+            radial-gradient(0.95em at 50% calc(100% - 1.32em),#000 99%,#0000 101%) calc(50% - 1.1em) 0/2.2em 100%,
+            radial-gradient(0.95em at 50% calc(100% + 0.77em),#0000 99%,#000 101%) 50% calc(100% - 0.55em)/2.2em 100% repeat-x;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+}
+
+.my-journey__art--item19::before {
+    content: "";
+    position: absolute;
+    left: -0.1em;
+    top: 0.79em;
+    width: 4.9em;
+    height: 4.9em;
     background: var(--css-art-dark);
-    clip-path: polygon(1% 94%, 12% 90%, 25% 83%, 36% 76%, 45% 71%, 52% 65%, 57% 59%, 62% 53%, 68% 48%, 74% 46%, 81% 44%, 88% 51%, 79% 54%, 72% 59%, 64% 66%, 58% 70%, 53% 74%, 48% 78%, 42% 82%, 34% 86%, 26% 89%, 19% 92%, 13% 93%, 6% 94%);
-    z-index: 2;
-    transform: scaleX(-1) rotate(2.5deg);
+    clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+    border-radius: 0.75em;
+    transform: rotate(135deg);
 }
 
 /*Stars*/
-
 .my-journey__art--item20 {
     position: absolute;
     top: 1.3em;
     right: 9.3em;
+    transform: rotate(-4deg);
 }
 
 .my-journey__art--item20::before, .my-journey__art--item20::after {
@@ -558,18 +584,61 @@
 }
 
 /*Bush*/
+.my-journey__art--item21 {
+    width: 8em;
+    height: 3em;
+    top: 25.9em;
+    left: 2.7em;
+    overflow: hidden;
+    z-index: 2;
+}
 
-/*Bird 3*/
+.my-journey__art--item21::before,
+.my-journey__art--item21::after {
+    content: "";
+    position: absolute;
+    width: 1.1em;
+    height: 1em;
+    bottom: -0.5em;
+}
+
+.my-journey__art--item21::before {
+    left: 1em;
+    background: var(--css-art-dark);
+    border-radius: 1em;
+    box-shadow:
+            var(--css-art-dark) 1em -0.5em 0 0.2em,
+            var(--css-art-dark) 2.1em -0.7em 0 0.5em,
+            var(--css-art-dark) 3.2em -0.3em 0 0.1em,
+            var(--css-art-dark) 4.5em -0.3em 0 0.25em,
+            var(--css-art-dark) 5.2em 0 0 0em;
+    z-index: 2;
+}
+
+.my-journey__art--item21::after {
+    left: 0.3em;
+    background: var(--css-art-light);
+    border-radius: 1em;
+    box-shadow:
+            var(--css-art-light) 1.3em -0.5em 0 0.5em,
+            var(--css-art-light) 2em -1.3em 0 0.2em,
+            var(--css-art-light) 2.6em -1.4em 0 0,
+            var(--css-art-light) 4.1em -0.7em 0 0,
+            var(--css-art-light) 4.8em -0.7em 0 0.1em,
+            var(--css-art-light) 5.5em -0.8em 0 0.15em,
+            var(--css-art-light) 6.2em -0.1em 0 0;
+    z-index: 1;
+}
+
+/*Water plants*/
+
+/*Bush 2*/
 
 /*Grass 2*/
 
 /*Fox*/
 
 /*Mountain path*/
-
-/*Water plants*/
-
-/*Snow*/
 
 /*Reindeer*/
 
