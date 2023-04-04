@@ -100,7 +100,9 @@ const MyJourney = () => {
                         <div className="item23__grass item23__grass--4"/>
                         <div className="item23__grass item23__grass--5"/>
                     </div>
-                    <div className="my-journey__art--items my-journey__art--item24"/>
+                    <div className="my-journey__art--items my-journey__art--item24">
+                        <div className="item24__waterfall-plunge"/>
+                    </div>
                     <div className="my-journey__art--items my-journey__art--item25"/>
                     <div className="my-journey__art--items my-journey__art--item26"/>
                     <div className="my-journey__art--items my-journey__art--item27"/>

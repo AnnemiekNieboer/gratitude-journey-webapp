@@ -13,7 +13,7 @@
 
 @media screen and (min-width: 80em) {
     .my-journey__art-container--inner {
-        height: 80vh;
+        height: 75vh;
     }
 }
 
@@ -71,7 +71,7 @@
 /*river*/
 .my-journey__art--item5 {
     width: 8em;
-    height: 13.3em;
+    height: 14.5em;
     left: 18em;
     top: 24em;
     background: var(--css-art-darker);
@@ -84,7 +84,7 @@
     position: relative;
     width: 3em;
     height: 0.7em;
-    top: 4.3em;
+    top: 5em;
     left: 3.4em;
     overflow: hidden;
     transform: scale(0.7);
@@ -104,13 +104,13 @@
 }
 
 .wave__container--2 {
-    top: 6.3em;
+    top: 6.7em;
     left: 1.2em;
     transform: scale(0.8);
 }
 
 .wave__container--3 {
-    top: 9em;
+    top: 9.5em;
     left: 2.7em;
     transform: scale(1);
 }
@@ -522,18 +522,6 @@
     transform: scaleX(-1) scale(0.8) rotate(18deg);
 }
 
-/*Mountain path*/
-/*.my-journey__art--item19 {*/
-/*    top: 14em;*/
-/*    left: 0.9em;*/
-/*    width: 10.8em;*/
-/*    height: 8em;*/
-/*    background: var(--css-art-dark);*/
-/*    clip-path: polygon(1% 94%, 12% 90%, 25% 83%, 36% 76%, 45% 71%, 52% 65%, 57% 59%, 62% 53%, 68% 48%, 74% 46%, 81% 44%, 88% 51%, 79% 54%, 72% 59%, 64% 66%, 58% 70%, 53% 74%, 48% 78%, 42% 82%, 34% 86%, 26% 89%, 19% 92%, 13% 93%, 6% 94%);*/
-/*    z-index: 2;*/
-/*    transform: scaleX(-1) rotate(2.5deg);*/
-/*}*/
-
 /*Snow*/
 .my-journey__art--item19 {
     width: 4.7em;
@@ -607,12 +595,12 @@
     width: 1.1em;
     height: 1em;
     bottom: -0.5em;
+    border-radius: 1em;
 }
 
 .my-journey__art--item21::before {
     left: 1em;
     background: var(--css-art-dark);
-    border-radius: 1em;
     box-shadow:
             var(--css-art-dark) 1em -0.5em 0 0.2em,
             var(--css-art-dark) 2.1em -0.7em 0 0.5em,
@@ -625,7 +613,6 @@
 .my-journey__art--item21::after {
     left: 0.3em;
     background: var(--css-art-light);
-    border-radius: 1em;
     box-shadow:
             var(--css-art-light) 1.3em -0.5em 0 0.5em,
             var(--css-art-light) 2em -1.3em 0 0.2em,
@@ -639,7 +626,7 @@
 
 /*Water plants*/
 .my-journey__art--item22 {
-    top: 34.8em;
+    top: 35.8em;
     left: 25em;
 }
 
@@ -703,18 +690,145 @@
     transform: scaleX(-1) scale(1.1);
 }
 
+/*Waterfall*/
+.my-journey__art--item24 {
+    left: 21.1em;
+    top: 22em;
+    width: 2em;
+    height: 5em;
+    background: var(--css-art-darker);
+    border-radius: 1.2em 0.5em 0 0;
+    z-index: 1;
+}
+
+.my-journey__art--item24::before {
+    content: "";
+    position: absolute;
+    left: 0.6em;
+    top: 0.5em;
+    width: 0.4em;
+    height: 2.5em;
+    border-radius: 1.2em 0 0 0;
+    border-style: solid;
+    border-color: var(--css-art-light);
+    border-width: 0.2em 0 0 0.2em;
+}
+
+.my-journey__art--item24::after {
+    content: "";
+    position: absolute;
+    left: 1.2em;
+    top: 0.5em;
+    width: 0.4em;
+    height: 3.4em;
+    border-radius: 1.2em 0 0 0;
+    border-style: solid;
+    border-color: var(--css-art-light);
+    border-width: 0.2em 0 0 0.2em;
+}
+
+.item24__waterfall-plunge {
+    position: absolute;
+    bottom: -0.5em;
+    width: 1em;
+    height: 1em;
+    background: var(--css-art-lighter);
+    border-radius: 1em;
+    box-shadow:
+            -0.6em 0.2em 0 -0.1em var(--css-art-lighter),
+            0.6em 0.2em 0 0.05em var(--css-art-lighter),
+            0.9em 0.05em 0 -0.05em var(--css-art-lighter),
+            1.4em 0.1em 0 -0.2em var(--css-art-lighter);
+}
+
+/*Mountain path*/
+.my-journey__art--item25 {
+    top: 16em;
+    left: 1em;
+    width: 5em;
+    height: 4em;
+    border-width: 0 0.15em 0.2em 0;
+    border-style: dashed;
+    border-color: var(--css-art-dark);
+    border-radius: 66% 34% 86% 14% / 100% 40% 60% 0;   ;
+    z-index: 2;
+}
+
 /*Bush 2*/
+.my-journey__art--item26 {
+    width: 10em;
+    height: 5em;
+    top: 36em;
+    right: -0.2em;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.my-journey__art--item26::before,
+.my-journey__art--item26::after {
+    content: "";
+    position: absolute;
+    width: 1.6em;
+    height: 1.4em;
+    left: 1.4em;
+    bottom: -0.5em;
+    border-radius: 2em;
+}
+
+.my-journey__art--item26::before {
+    background: var(--css-art-darker);
+    box-shadow:
+            1.7em -0.5em 0 0.5em var(--css-art-darker),
+            2.8em 0 0 0.5em var(--css-art-darker),
+            4.9em -0.7em 0 0.5em var(--css-art-darker),
+            6.5em -1.1em 0 0.9em var(--css-art-darker);
+    z-index: 1;
+}
+
+.my-journey__art--item26::after {
+    background: var(--css-art-dark);
+    left: 0.2em;
+    transform: scale(0.7);
+    box-shadow:
+            1.6em -0.5em 0 0.9em var(--css-art-dark),
+            2.4em -1.8em 0 0 var(--css-art-dark),
+            5.4em -1.8em 0 0.9em var(--css-art-dark),
+            7.2em -1.8em 0 0.4em var(--css-art-dark),
+            8.9em -2.7em 0 0.4em var(--css-art-dark);
+    z-index: 0;
+}
+
+@media screen and (min-width: 80em) {
+    .my-journey__art--item26 {
+        transform: scale(1.5);
+        right: 2em;
+    }
+}
+
+/*Large tree*/
+.my-journey__art--item27 {
+
+}
+
+/*Owl*/
+.my-journey__art--item28 {
+
+}
+
+/*Bush 2*/
+.my-journey__art--item29 {
+
+}
+
+/*Flag on mountain*/
+.my-journey__art--item30 {
+
+}
 
 /*Fox*/
 
-/*Mountain path*/
-
 /*Reindeer*/
-
-/*Large tree*/
-
-/*Owl*/
 
 /*Fish*/
 
-/*Flag on mountain*/
+/*Mountain bridge?*/
