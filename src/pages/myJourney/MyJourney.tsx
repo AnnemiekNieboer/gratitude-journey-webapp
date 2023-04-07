@@ -105,11 +105,23 @@ const MyJourney = () => {
                     </div>
                     <div className="my-journey__art--items my-journey__art--item25"/>
                     <div className="my-journey__art--items my-journey__art--item26"/>
-                    <div className="my-journey__art--items my-journey__art--item27"/>
-                    <div className="my-journey__art--items my-journey__art--item28"/>
-                    <div className="my-journey__art--items my-journey__art--item29"/>
+                    <div className="my-journey__art--items my-journey__art--item27">
+                        <div className="item27__tree-decoration"/>
+                    </div>
+                    <div className="my-journey__art--items my-journey__art--item28">
+                        <div className="item28__bird"/>
+                    </div>
+                    <div className="my-journey__art--items my-journey__art--item29">
+                        <div className="item29__grass"/>
+                        <div className="item29__grass item29__grass--2"/>
+                        <div className="item29__grass item29__grass--3"/>
+                    </div>
                     <div className="my-journey__art--items my-journey__art--item30"/>
                 </div>
+                <section className="my-journey__day-counter">
+                    <h1>Day 30/30</h1>
+                </section>
+
             </main>
         </div>
     );

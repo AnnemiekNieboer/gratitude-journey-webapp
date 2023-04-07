@@ -17,6 +17,16 @@
     }
 }
 
+.my-journey__day-counter {
+    position: absolute;
+    align-self: flex-start;
+    bottom: 0;
+    margin-left: 1.8em;
+    margin-bottom: 0.4em;
+}
+
+/*---------- CSS art items -----------*/
+
 .my-journey__art--items {
     position: absolute;
 }
