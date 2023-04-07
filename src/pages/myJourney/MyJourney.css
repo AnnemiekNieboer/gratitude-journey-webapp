@@ -1,0 +1,959 @@
+.my-journey__art-container--outer {
+    position: absolute;
+    height: 88vh;
+}
+
+.my-journey__art-container--inner {
+    position: absolute;
+    width: 100%;
+    height: 75vh;
+    top: 4em;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 80em) {
+    .my-journey__art-container--inner {
+        height: 75vh;
+    }
+}
+
+.my-journey__day-counter {
+    position: absolute;
+    align-self: flex-start;
+    bottom: 0;
+    margin-left: 1.8em;
+    margin-bottom: 0.4em;
+}
+
+/*---------- CSS art items -----------*/
+
+.my-journey__art--items {
+    position: absolute;
+}
+
+/*Mountain 1*/
+.my-journey__art--item1 {
+    width: 15em;
+    height: 15em;
+    top: 13em;
+    background: var(--css-art-lighter);
+    clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+    border-radius: 0.75em;
+    transform: rotate(135deg);
+}
+
+/*sun*/
+.my-journey__art--item2 {
+    width: 2.5em;
+    height: 2.5em;
+    right: 4em;
+    top: 3.6em;
+    background: var(--css-art-lighter);
+    border-radius: 50%;
+    box-shadow: 0 0 2em 1.5em var(--css-art-lighter);
+}
+
+/*Mountain 2*/
+.my-journey__art--item3 {
+    width: 15em;
+    height: 15em;
+    top: 15em;
+    left: 7em;
+    background: var(--css-art-light);
+    clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+    border-radius: 0.75em;
+    transform: rotate(135deg);
+}
+
+/*Mountain 3*/
+.my-journey__art--item4 {
+    width: 18em;
+    height: 18em;
+    top: 18em;
+    left: 12em;
+    background: var(--css-art-dark);
+    clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+    border-radius: 0.75em;
+    transform: rotate(135deg);
+    z-index: 1;
+}
+
+/*river*/
+.my-journey__art--item5 {
+    width: 8em;
+    height: 14.5em;
+    left: 18em;
+    top: 24em;
+    background: var(--css-art-darker);
+    border-radius: 15px;
+    clip-path: polygon(24% 0, 76% 0, 100% 100%, 0 100%);
+    z-index: 0;
+}
+
+.item5__wave--container {
+    position: relative;
+    width: 3em;
+    height: 0.7em;
+    top: 5em;
+    left: 3.4em;
+    overflow: hidden;
+    transform: scale(0.7);
+}
+
+.item5__wave {
+    position: absolute;
+    width: 1.5em;
+    height: 1.5em;
+    background: var(--css-art-darker);
+    border: 0.2em solid var(--css-art-lighter);
+    border-radius: 50%;
+}
+
+.item5__wave--2 {
+    left: 1.3em;
+}
+
+.wave__container--2 {
+    top: 6.7em;
+    left: 1.2em;
+    transform: scale(0.8);
+}
+
+.wave__container--3 {
+    top: 9.5em;
+    left: 2.7em;
+    transform: scale(1);
+}
+
+/*Mountain 4*/
+.my-journey__art--item6 {
+    width: 19em;
+    height: 19em;
+    top: 19em;
+    left: -4.1em;
+    background: var(--css-art-darker);
+    clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+    border-radius: 0.75em;
+    transform: rotate(135deg);
+    z-index: 2;
+}
+
+/*Trees*/
+.my-journey__art--item7 {
+    top: 15.5em;
+    left: 10em;
+}
+
+.item7__tree, .item17__tree {
+    position: relative;
+    width: 0.5em;
+    height: 0.8em;
+    background: var(--css-art-dark);
+    box-shadow: 0 0.4em 0.8em 0.4em var(--main-shadow-color-dark);
+}
+
+.item7__tree--2 {
+    top: 0.18em;
+    left: -0.85em;
+    background: var(--css-art-darker);
+    transform: scale(0.8);
+}
+
+.item7__tree--3 {
+    top: 0.2em;
+    left: -2em;
+    transform: scale(0.9);
+}
+
+.item7__tree--greenery, .item17__tree--greenery {
+    position: absolute;
+    width: 1.5em;
+    height: 1.5em;
+    top: -0.5em;
+    left: -0.5em;
+    transform: rotate(135deg);
+    background: inherit;
+    border-radius: 0.3em;
+    clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+}
+
+.item7__tree--greenery--2, .item17__tree--greenery--2 {
+    top: -1em;
+    left: -0.43em;
+    width: 1.3em;
+    height: 1.3em;
+}
+
+.item7__tree--greenery--3, .item17__tree--greenery--3 {
+    top: -1.4em;
+    left: -0.33em;
+    width: 1em;
+    height: 1em;
+}
+
+/*Cloud 1*/
+.my-journey__art--item8 {
+    top: 11em;
+    right: 13em;
+}
+
+.my-journey__art--cloud {
+    position: relative;
+    width: 2.5em;
+    height: 2.2em;
+    background: var(--css-art-lighter);
+    border-radius: 50%;
+}
+
+.item8__cloud1 {
+    box-shadow:
+            var(--css-art-lighter) 1em -0.5em 0 0,
+            var(--css-art-lighter) 1.5em -0.2em 0 0.1em,
+            var(--css-art-lighter) 2.5em 0em 0 -0.4em;
+}
+
+@media screen and (min-width: 80em) {
+    .my-journey__art--item8 {
+        right: 17em;
+    }
+}
+
+/*tent*/
+.my-journey__art--item9 {
+    position: relative;
+    width: 3.6em;
+    height: 1.9em;
+    left: 13.8em;
+    top: 30em;
+    background: var(--css-art-lighter);
+    border-radius: 2em 2em 0 0;
+}
+
+.my-journey__art--item9::before {
+    content: "";
+    position: absolute;
+    left: 0.9em;
+    width: 2em;
+    height: 1.6em;
+    bottom: 0;
+    background: var(--css-art-dark);
+    clip-path: polygon(50% 0, 50% 0, 65% 100%, 35% 100%);
+}
+
+.item9__tent-line {
+    position: absolute;
+    bottom: -0.3em;
+    left: -0.3em;
+    width: 0.15em;
+    height: 1.2em;
+    background: var(--css-art-dark);
+    border-radius: 15px;
+    transform: rotate(45deg);
+}
+
+.item9__tent-line::before {
+    content: "";
+    position: absolute;
+    width: 0.5em;
+    height: 0.25em;
+    bottom: 0;
+    left: -0.3em;
+    background: var(--css-art-darker);
+    transform: rotate(30deg);
+}
+
+.item9__tent-line--right {
+    left: 3.8em;
+    transform: scaleX(-1) rotate(45deg);
+}
+
+/*Campfire*/
+.my-journey__art--item10 {
+    position: relative;
+    top: 30em;
+    left: 11.4em;
+    width: 0.5em;
+    height: 1.4em;
+    border-radius: 0.75em;
+    background: var(--css-art-darker);
+}
+
+.my-journey__art--item10::before {
+    content: "";
+    position: absolute;
+    width: 0.4em;
+    height: 1.3em;
+    border-radius: 0.75em;
+    background: var(--css-art-dark);
+    left: -0.4em;
+    bottom: 0;
+    transform: rotate(24deg);
+}
+
+.my-journey__art--item10::after {
+    content: "";
+    position: absolute;
+    width: 0.4em;
+    height: 1.3em;
+    border-radius: 0.75em;
+    background: var(--css-art-dark);
+    left: 0.5em;
+    bottom: 0;
+    transform: rotate(-24deg);
+    z-index: 0;
+}
+
+.item10__fire {
+    position: absolute;
+    width: 1.30em;
+    height: 3.7em;
+    bottom: 1.5em;
+    left: -0.38em;
+    background: var(--css-art-lighter);
+    --mask:
+            radial-gradient(1.03em at 1.40em 50%,#000 99%,#0000 101%) 0 calc(50% - 1em)/51% 2em repeat-y,
+            radial-gradient(1.03em at -0.9em 50%,#0000 99%,#000 101%) 0.5em 50%/calc(51% - 0.5em) 2em repeat-y,
+            radial-gradient(1.03em at calc(100% - 1.40em) 50%,#000 99%,#0000 101%) 100% calc(50% - 1em)/51% 2em repeat-y,
+            radial-gradient(1.03em at calc(100% + 0.90em) 50%,#0000 99%,#000 101%) calc(100% - 0.5em) 50%/calc(51% - 0.5em) 2em repeat-y;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+    z-index: 2;
+}
+
+/*Stones around campfire*/
+.my-journey__art--item11 {
+    top: 33.7em;
+    left: 11.2em;
+    width: 0.7em;
+    height: 0.5em;
+    border-radius: 50%;
+    background: var(--css-art-darker);
+    box-shadow:
+            var(--css-art-dark) 0.80em 0 0 -0.02em,
+            var(--css-art-darker) 1.5em -0.35em 0 -0.03em,
+            var(--css-art-dark) 1.5em -0.9em 0 -0.08em,
+            var(--css-art-darker) 1.1em -1.25em 0 -0.1em,
+            var(--css-art-darker) -0.9em -1.25em 0 -0.1em,
+            var(--css-art-dark) -1.3em -0.9em 0 -0.08em,
+            var(--css-art-darker) -1.4em -0.35em 0 -0.03em,
+            var(--css-art-dark) -0.80em 0 0 -0.02em;
+}
+
+/*Cloud 2*/
+.my-journey__art--item12 {
+    top: 14.5em;
+    right: 7.5em;
+}
+.item12__cloud2 {
+    transform: scale(75%);
+    box-shadow:
+            var(--css-art-lighter) -1em 0.2em 0 -0.35em,
+            var(--css-art-lighter) 1em 0.2em 0 -0.35em;
+}
+
+/*Bird*/
+.my-journey__art--item13, .my-journey__art--item18 {
+    position: relative;
+    left: 10em;
+    top: 3.6em;
+    width: 1em;
+    height: 1em;
+    border-color: var(--css-art-light);
+    border-width: 0.2em 0 0 0;
+    border-style: solid;
+    border-radius: 10em 10em 0 0;
+    transform: rotate(10deg);
+}
+
+.my-journey__art--item13::after, .my-journey__art--item18::after {
+    content: "";
+    position: absolute;
+    top: -0.1em;
+    right: -0.8em;
+    width: 0.8em;
+    height: 1em;
+    border-color: var(--css-art-lighter);
+    border-width: 0.2em 0 0 0;
+    border-style: solid;
+    border-radius: 10em 10em 0 0;
+}
+
+/*Grass*/
+.my-journey__art--item14 {
+    top: 26.4em;
+    left: 25.7em;
+    z-index: 1;
+    transform: scale(0.9);
+}
+
+.item14__grass, .item23__grass, .item29__grass {
+    position: relative;
+    width: 0.9em;
+    height: 1em;
+    border-color: var(--css-art-darker);
+    border-width: 0 0.2em 0 0;
+    border-style: solid;
+    border-radius: 3em 3em 0 0;
+    transform: rotate(-12deg);
+}
+
+.item14__grass::before, .item23__grass::before, .item29__grass::before {
+    content: "";
+    position: absolute;
+    bottom: -0.1em;
+    left: -0.67em;
+    width: 1.3em;
+    height: 0.7em;
+    border-color: var(--css-art-darker);
+    border-width: 0 0.2em 0 0;
+    border-style: solid;
+    border-radius: 3em 3em 0 0;
+    transform: rotate(-7deg);
+}
+
+.item14__grass::after, .item23__grass::after, .item29__grass::after {
+    content: "";
+    position: absolute;
+    bottom: -0.1em;
+    left: 0.9em;
+    width: 1.3em;
+    height: 0.5em;
+    border-color: var(--css-art-darker);
+    border-width: 0 0.2em 0 0;
+    border-style: solid;
+    border-radius: 3em 3em 0 0;
+    transform: rotate(15deg) scaleX(-1);
+}
+
+.item14__grass--2, .item23__grass--2, .item29__grass--2 {
+    top: -0.3em;
+    left: 2.2em;
+    transform: scaleX(-1);
+}
+
+.item14__grass--3, .item23__grass--3, .item29__grass--3 {
+    top: -0.5em;
+    left: -0.5em;
+    transform: scale(0.8);
+}
+.item14__grass--4, .item23__grass--4 {
+    top: -1em;
+    left: 5em;
+}
+.item14__grass--5, .item23__grass--5 {
+    top: -1em;
+    left: 3.3em;
+    transform: scale(0.9) ;
+}
+
+/*Streaky clouds*/
+.my-journey__art--item15 {
+    top: 21em;
+    right: 1em;
+    width: 13em;
+    height: 0.4em;
+    background: var(--css-art-lighter);
+    border-radius: 32% 68% 31% 69% / 60% 50% 50% 40%;
+    filter: blur(0.17em);
+    box-shadow: var(--css-art-lighter) -2.5em -1em 0 -0.1em;
+}
+
+/*Bunny*/
+.my-journey__art--item16 {
+    position: relative;
+    top: 25em;
+    left: 27em;
+    width: 1.3em;
+    height: 1em;
+    background: var(--css-art-dark);
+}
+
+.my-journey__art--item16::before {
+    content: "";
+    position: absolute;
+    top: -0.25em;
+    left: -0.2em;
+    width: 0.8em;
+    height: 0.8em;
+    background: var(--css-art-dark);
+}
+
+.my-journey__art--item16::after {
+    content: "";
+    position: absolute;
+    width: 0.4em;
+    height: 0.4em;
+    right: -0.2em;
+    bottom: 0.2em;
+    background: var(--css-art-light);
+}
+
+.item16__bunny-ears {
+    position: absolute;
+    width: 0.3em;
+    height: 0.6em;
+    top: -0.8em;
+    background: var(--css-art-dark);
+    transform: rotate(15deg);
+    box-shadow: var(--css-art-darker) 0.2em 0.12em 0 0;
+}
+
+.my-journey__art--item16,
+.my-journey__art--item16::before,
+.my-journey__art--item16::after,
+.item16__bunny-ears {
+    border-radius: 1em;
+}
+
+/*Second group of trees, css combined with item 7*/
+.my-journey__art--item17 {
+    top: 24.1em;
+    left: 14.4em;
+    z-index: 2;
+    transform: scale(0.8);
+}
+
+.item17__tree {
+    background: var(--css-art-lighter);
+}
+
+.item17__tree--2 {
+    top: 0.5em;
+    left: 1.45em;
+    background: var(--css-art-light);
+    transform: scale(0.9);
+}
+
+/*Bird 2, shares css with item 13*/
+.my-journey__art--item18 {
+    top: 13em;
+    left: 22em;
+    z-index: 1;
+    transform: scaleX(-1) scale(0.8) rotate(18deg);
+}
+
+/*Snow*/
+.my-journey__art--item19 {
+    width: 4.7em;
+    height: 3em;
+    left: 5.1em;
+    top: 10em;
+    --mask:
+            radial-gradient(0.95em at 50% calc(100% - 1.32em),#000 99%,#0000 101%) calc(50% - 1.1em) 0/2.2em 100%,
+            radial-gradient(0.95em at 50% calc(100% + 0.77em),#0000 99%,#000 101%) 50% calc(100% - 0.55em)/2.2em 100% repeat-x;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+}
+
+.my-journey__art--item19::before {
+    content: "";
+    position: absolute;
+    left: -0.1em;
+    top: 0.79em;
+    width: 4.9em;
+    height: 4.9em;
+    background: var(--css-art-dark);
+    clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+    border-radius: 0.75em;
+    transform: rotate(135deg);
+}
+
+/*Stars*/
+.my-journey__art--item20 {
+    position: absolute;
+    top: 1.3em;
+    right: 9.3em;
+    transform: rotate(-4deg);
+}
+
+.my-journey__art--item20::before, .my-journey__art--item20::after {
+    content:"";
+    position:absolute;
+    background: var(--css-art-lighter);
+    width:0.25em;
+    height:0.40em;
+}
+
+.my-journey__art--item20::before {
+    transform:rotate(-45deg) skewX(22.5deg) skewY(22.5deg);
+    box-shadow:
+            var(--css-art-lighter) 0.5em -2em 0 -0.05em,
+            var(--css-art-lighter) -3.55em 0.5em 0 -0.02em;
+}
+
+.my-journey__art--item20::after {
+    transform:rotate(45deg) skewX(22.5deg) skewY(22.5deg);
+    box-shadow:
+            var(--css-art-lighter) -1.9em 1em 0 -0.05em,
+            var(--css-art-lighter) -2.6em 5em 0 -0.02em;
+}
+
+/*Bush*/
+.my-journey__art--item21 {
+    width: 8em;
+    height: 3em;
+    top: 25.9em;
+    left: 2.7em;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.my-journey__art--item21::before,
+.my-journey__art--item21::after {
+    content: "";
+    position: absolute;
+    width: 1.1em;
+    height: 1em;
+    bottom: -0.5em;
+    border-radius: 1em;
+}
+
+.my-journey__art--item21::before {
+    left: 1em;
+    background: var(--css-art-dark);
+    box-shadow:
+            var(--css-art-dark) 1em -0.5em 0 0.2em,
+            var(--css-art-dark) 2.1em -0.7em 0 0.5em,
+            var(--css-art-dark) 3.2em -0.3em 0 0.1em,
+            var(--css-art-dark) 4.5em -0.3em 0 0.25em,
+            var(--css-art-dark) 5.2em 0 0 0em;
+    z-index: 2;
+}
+
+.my-journey__art--item21::after {
+    left: 0.3em;
+    background: var(--css-art-light);
+    box-shadow:
+            var(--css-art-light) 1.3em -0.5em 0 0.5em,
+            var(--css-art-light) 2em -1.3em 0 0.2em,
+            var(--css-art-light) 2.6em -1.4em 0 0,
+            var(--css-art-light) 4.1em -0.7em 0 0,
+            var(--css-art-light) 4.8em -0.7em 0 0.1em,
+            var(--css-art-light) 5.5em -0.8em 0 0.15em,
+            var(--css-art-light) 6.2em -0.1em 0 0;
+    z-index: 1;
+}
+
+/*Water plants*/
+.my-journey__art--item22 {
+    top: 35.8em;
+    left: 25em;
+}
+
+.item22__waterplant {
+    position: absolute;
+    width: 0.1em;
+    height: 1.4em;
+    background: var(--css-art-lighter);
+    border-radius: 1em;
+    box-shadow:
+            var(--css-art-lighter) -0.8em 0.3em 0 0,
+            var(--css-art-lighter) -0.4em 0.6em 0 0;
+    z-index: 1;
+}
+
+.item22__waterplant::before {
+    content: "";
+    position: absolute;
+    top: -0.5em;
+    left: -0.1em;
+    width: 0.3em;
+    height: 0.6em;
+    background: var(--css-art-dark);
+    border-radius: 1em;
+    box-shadow:
+            var(--css-art-dark) -0.8em 0.3em 0 0,
+            var(--css-art-light) -0.4em 0.6em 0 0;
+}
+
+.item22__waterplant::after {
+    content: "";
+    position: absolute;
+    bottom: -0.2em;
+    left: -0.3em;
+    width: 0.6em;
+    height: 0.4em;
+    border-radius: 1em;
+    background: var(--main-shadow-color-dark);
+    box-shadow:
+            var(--main-shadow-color-dark) 0 0 0.2em 0,
+            var(--main-shadow-color-dark) -0.8em 0.3em 0.2em 0,
+            var(--main-shadow-color-dark) -0.4em 0.6em 0.2em 0;
+}
+
+.item22__waterplant--2 {
+    left: -2em;
+    bottom: 1.9em;
+    transform: scale(0.7) scaleX(-1);
+}
+
+.item22__waterplant--3 {
+    left: -6em;
+    bottom: -0.5em;
+    transform: scale(0.9) scaleX(-1);
+}
+
+/*Grass 2, shares css from item 14*/
+.my-journey__art--item23 {
+    top: 35em;
+    left: 16em;
+    transform: scaleX(-1) scale(1.1);
+}
+
+/*Waterfall*/
+.my-journey__art--item24 {
+    left: 21.1em;
+    top: 22em;
+    width: 2em;
+    height: 5em;
+    background: var(--css-art-darker);
+    border-radius: 1.2em 0.5em 0 0;
+    z-index: 1;
+}
+
+.my-journey__art--item24::before {
+    content: "";
+    position: absolute;
+    left: 0.6em;
+    top: 0.5em;
+    width: 0.4em;
+    height: 2.5em;
+    border-radius: 1.2em 0 0 0;
+    border-style: solid;
+    border-color: var(--css-art-light);
+    border-width: 0.2em 0 0 0.2em;
+}
+
+.my-journey__art--item24::after {
+    content: "";
+    position: absolute;
+    left: 1.2em;
+    top: 0.5em;
+    width: 0.4em;
+    height: 3.4em;
+    border-radius: 1.2em 0 0 0;
+    border-style: solid;
+    border-color: var(--css-art-light);
+    border-width: 0.2em 0 0 0.2em;
+}
+
+.item24__waterfall-plunge {
+    position: absolute;
+    bottom: -0.5em;
+    width: 1em;
+    height: 1em;
+    background: var(--css-art-lighter);
+    border-radius: 1em;
+    box-shadow:
+            -0.6em 0.2em 0 -0.1em var(--css-art-lighter),
+            0.6em 0.2em 0 0.05em var(--css-art-lighter),
+            0.9em 0.05em 0 -0.05em var(--css-art-lighter),
+            1.4em 0.1em 0 -0.2em var(--css-art-lighter);
+}
+
+/*Mountain path*/
+.my-journey__art--item25 {
+    top: 16em;
+    left: 1em;
+    width: 5em;
+    height: 4em;
+    border-width: 0 0.15em 0.2em 0;
+    border-style: dashed;
+    border-color: var(--css-art-dark);
+    border-radius: 66% 34% 86% 14% / 100% 40% 60% 0;   ;
+    z-index: 2;
+}
+
+/*Bush 2*/
+.my-journey__art--item26 {
+    width: 10em;
+    height: 5em;
+    top: 36em;
+    right: -0.2em;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.my-journey__art--item26::before,
+.my-journey__art--item26::after {
+    content: "";
+    position: absolute;
+    width: 1.6em;
+    height: 1.4em;
+    left: 1.4em;
+    bottom: -0.5em;
+    border-radius: 2em;
+}
+
+.my-journey__art--item26::before {
+    background: var(--css-art-darker);
+    box-shadow:
+            1.7em -0.5em 0 0.5em var(--css-art-darker),
+            2.8em 0 0 0.5em var(--css-art-darker),
+            4.9em -0.7em 0 0.5em var(--css-art-darker),
+            6.5em -1.1em 0 0.9em var(--css-art-darker);
+    z-index: 1;
+}
+
+.my-journey__art--item26::after {
+    background: var(--css-art-dark);
+    left: 0.2em;
+    transform: scale(0.7);
+    box-shadow:
+            1.6em -0.5em 0 0.9em var(--css-art-dark),
+            2.4em -1.8em 0 0 var(--css-art-dark),
+            5.4em -1.8em 0 0.9em var(--css-art-dark),
+            7.2em -1.8em 0 0.4em var(--css-art-dark),
+            8.9em -2.7em 0 0.4em var(--css-art-dark);
+    z-index: 0;
+}
+
+@media screen and (min-width: 80em) {
+    .my-journey__art--item26 {
+        transform: scale(1.5);
+        right: 2em;
+    }
+}
+
+/*Large tree*/
+.my-journey__art--item27 {
+    top: 33.5em;
+    left: -0.6em;
+    width: 3em;
+    height: 7em;
+    background: var(--css-art-dark);
+    border-radius: 47% 53% 45% 55% / 91% 89% 11% 9%;
+}
+
+.my-journey__art--item27::before {
+    content: "";
+    position: absolute;
+    bottom: -0.5em;
+    left: -0.5em;
+    width: 4.1em;
+    height: 2em;
+    background: var(--css-art-dark);
+    border-radius: 49% 51% 51% 49% / 67% 71% 29% 33% ;
+}
+
+.my-journey__art--item27::after {
+    content: "";
+    position: absolute;
+    left: 2em;
+    width: 2.25em;
+    height: 2em;
+    background: var(--css-art-darker);
+    border-radius: 1em;
+    box-shadow:
+            -1em 0 0 0.3em var(--css-art-darker),
+            1em -1em 0 -0.1em var(--css-art-darker),
+            1.2em 0.2em 0 -0.5em var(--css-art-darker),
+            0 -2em 0 0.1em var(--css-art-darker),
+            -1em -2.3em 0 0.3em var(--css-art-darker),
+            -2.5em -1.2em 0 1.3em var(--css-art-darker);
+}
+.item27__tree-decoration {
+    position: absolute;
+    bottom: 2em;
+    left: 0.8em;
+    width: 1.5em;
+    height: 1.8em;
+    background: var(--css-art-darker);
+    border-radius: 1em;
+}
+
+.item27__tree-decoration::before {
+    content: "";
+    position: absolute;
+    top: -0.5em;
+    right: -1.35em;
+    width: 0.6em;
+    height: 2em;
+    background: var(--css-art-dark);
+    border-radius: 48% 52% 47% 53% / 67% 39% 61% 33%;
+    transform: rotate(55deg);
+}
+
+/*Owl/bird*/
+.my-journey__art--item28 {
+    top: 35.8em;
+    left: 2.5em;
+    width: 0.8em;
+    height: 1em;
+    background: var(--css-art-darker);
+    border-radius: 48% 52% 47% 53% / 67% 39% 61% 33%;
+}
+
+.my-journey__art--item28::before {
+    content: "";
+    position: absolute;
+    right: -0.15em;
+    width: 0.3em;
+    height: 0.5em;
+    background: var(--css-art-dark);
+    border-radius: 0 100% 100% 0 / 100% 0 100% 0;
+    transform: rotate(-90deg);
+}
+
+.my-journey__art--item28::after {
+    content: "";
+    position: absolute;
+    top: 0.2em;
+    right: 0.3em;
+    width: 0.2em;
+    height: 0.2em;
+    border-radius: 1em;
+    background: var(--css-art-light);
+}
+
+/*Bird -- feet*/
+.item28__bird {
+    position: absolute;
+    top: 0.9em;
+    left: 0.4em;
+    width: 0.15em;
+    height: 0.4em;
+    border-radius: 1em;
+    background: var(--css-art-darker);
+    transform: rotate(-35deg);
+    box-shadow: 0.2em -0.05em 0 var(--css-art-darker);
+}
+
+/*Bird -- tail*/
+.item28__bird::before {
+    content: "";
+    position: absolute;
+    top: -0.5em;
+    left: -0.35em;
+    width: 0.5em;
+    height: 0.4em;
+    background: var(--css-art-darker);
+    border-radius: 76% 24% 28% 72% / 76% 77% 23% 24%;
+}
+
+/*Grass 3, shares css of item 14*/
+.my-journey__art--item29 {
+    top: 30em;
+    left: 6em;
+    transform: scale(0.9);
+}
+
+/*Flag on mountain*/
+.my-journey__art--item30 {
+    top: 11.1em;
+    left: 14.4em;
+    width: 0.2em;
+    height: 1.2em;
+    border-radius: 1em;
+    background: var(--css-art-darker);
+}
+
+.my-journey__art--item30::before {
+    content: "";
+    position: absolute;
+    top: 0.05em;
+    width: 0.8em;
+    height: 0.5em;
+    background: var(--css-art-darker);
+    border-radius: 0 100% 100% 0 / 100% 38% 62% 0;
+}
