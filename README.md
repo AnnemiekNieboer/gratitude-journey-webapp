@@ -5,7 +5,8 @@ _--- This project is still under development. Want a look at the project? You ca
 
 1.0 Introduction  
 1.1 What does the project do?  
-1.2 What functions do the project have? 
+1.2 What functions do the project have?   
+1.3 Visual preview of a full journey
 
 2.0 Installation and requirements  
 2.1 Available Scripts  
@@ -29,12 +30,21 @@ With Gratitude Journey you can look back on your life's journey. At times when y
 - With every added gratitude, your landscape grows visually
 - Each journey consists of 30 days, with 30 gratitudes and 30 visual items in your landscape
 
+**1.3 Visual preview of a full journey (30 days)**
+
+Every visual item in the journey is created with CSS. Not because this makes sense, but because I just think it's cool and a fun activity to make CSS art. With every gratitude you add, a CSS art item will be added to your landscape.
+
+The items are inspired by the paintings of Bob Ross (a great hero to me). I used [this research](https://www.statista.com/statistics/296326/elements-contained-in-paintings-by-bob-ross/) as inspiration, in which they investigated which items are most common in his paintings.  
+
+Mobile version (iPhone 14 Pro)
+
+<img width="300" src="src/assets/readme/Screenshot-mobile-screen-gratitude-journey.png" alt="Preview of My Journey screen with a full journey" title="Preview of My Journey screen with a full journey"/>
 
 ## 2.0 Installation and Requirements
 
 _Under construction_
 
-## 2.1 Available Scripts
+**2.1 Available Scripts**
 
 In the project directory, you can run:
 
