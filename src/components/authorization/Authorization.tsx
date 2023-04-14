@@ -1,8 +1,10 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import "./Authorization.css";
 import {useForm} from "react-hook-form";
 import Button from "../button/Button";
 import {Link} from "react-router-dom";
+import {supabase} from "../../lib/helper/supabaseClient";
+import {UserResponse} from "@supabase/supabase-js";
 
 type FormFields = {
     email: string,
@@ -10,6 +12,35 @@ type FormFields = {
 }
 
 function Authorization() {
+
+    const loginWithGoogle = async() => {
+        const { data, error } = await supabase.auth.signInWithOAuth({
+            provider: 'google',
+            options: {
+                queryParams: {
+                    access_type: 'offline',
+                    prompt: 'consent',
+                },
+            },
+        })
+    };
+
+    const [user, setUser] = useState<Promise<UserResponse>>();
+
+    //Sign out function voor sign out button
+    // async function signout() {
+    //     const { error } = await supabase.auth.signOut()
+    // }
+
+    useEffect(() => {
+        const session = supabase.auth.getSession();
+        console.log(session);
+        setUser(supabase.auth.getUser());
+
+    },[])
+
+    console.log(user)
+
     const {register, handleSubmit, formState: {errors}} = useForm<FormFields>({mode: "onChange"});
     const [error, toggleError] = useState(false);
     const [loading, toggleLoading] = useState(false);
@@ -70,6 +101,9 @@ function Authorization() {
 
                 </div>
             </form>
+
+            <Button onClick={loginWithGoogle} type="submit" text="Login with Google" buttonClassName="button--dark"/>
+
             <div className="modal__login--links">
                 <span className="login__links--forgot-password"> <Link
                     to="/my-journey">I forgot my password</Link> </span>
